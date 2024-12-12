@@ -9,6 +9,7 @@ public class login extends JFrame implements ActionListener {
     JTextField tfname;
     login(){
         getContentPane().setBackground(Color.BLACK);
+        //newlinecode
         setLayout(null);
 
         ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("photo2.jpg"));
@@ -21,6 +22,7 @@ public class login extends JFrame implements ActionListener {
         heading.setFont(new Font("Mongolian Baiti",Font.BOLD,25));
         heading.setForeground(Color.MAGENTA);
         add(heading);
+        //newlinecode
 
         JLabel name = new JLabel("Enter your name ");
         name.setBounds(800,120,200,45);
